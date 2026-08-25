@@ -14,8 +14,23 @@ Consolidação e padronização completa em uma única base de dados estruturada
 - Preenchimento seguro de 8.400+ códigos de cliente em branco com auditoria completa (evitando mistura de histórico entre clientes homônimos)
 - Estruturada em lote único (`.zip`) para uso com IA generativa sem perda de contexto
 
-## 🖼️ Resultado
-*(inserir aqui prints: antes/depois, sample dos dados consolidados)*
+## 📊 Resultado
+
+**Dados consolidados:** 86.134 linhas de transações (jan/2020 a jun/2026)
+- 3 lojas (CE01, CE05, CE17)
+- 10 colunas padronizadas
+- Rastreabilidade completa (coluna ArquivoOrigem, PeriodoArquivo)
+
+**Sample dos dados:**
+
+| Loja | Cliente | Data | Valor | Periodo |
+|------|---------|------|-------|---------|
+| CE01 | CLIENTE_0001 | 2020-01-02 | 25.50 | 2020 |
+| CE05 | CLIENTE_0004 | 2020-01-03 | 15.25 | 2020 |
+| CE17 | CLIENTE_0007 | 2020-01-04 | 35.75 | 2020 |
+| ... | ... | ... | ... | ... |
+
+Veja [`sample_dados_consolidados.csv`](sample_dados_consolidados.csv) para a estrutura completa.
 
 ## 🛠️ Tecnologias
 - Python (Pandas, data cleaning)
