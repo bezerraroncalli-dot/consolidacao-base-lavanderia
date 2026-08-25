@@ -1,0 +1,24 @@
+# Dados reais
+*.xlsx
+*.xls
+*.csv
+*.zip
+dados_brutos/
+dados_consolidados/
+output/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Sistema
+.DS_Store
+Thumbs.db
