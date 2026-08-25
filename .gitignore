@@ -2,6 +2,7 @@
 *.xlsx
 *.xls
 *.csv
+!sample_*.csv
 *.zip
 dados_brutos/
 dados_consolidados/
