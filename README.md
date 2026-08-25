@@ -24,7 +24,7 @@ Consolidação e padronização completa em uma única base de dados estruturada
 
 **Sample dos dados:**
 
-Veja o arquivo [`sample_dados_consolidados.csv`](sample_dados_consolidados.csv) para a estrutura completa com 30 linhas de exemplo cobrindo o período inteiro (2020-2026).
+Veja o arquivo [`sample_dados_consolidados.csv`](sample_dados_consolidados.csv) para a estrutura completa com 30 linhas de exemplo cobrindo o período inteiro (2019-2026).
 
 ## 🛠️ Tecnologias
 - Python (Pandas, data cleaning)
